@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "tiles": [
+    {
+      "id": 1,
+      "type": "normal",
+      "title": "Kittens Can’t See & Hear",
+      "description": "Kittens eyes open at around 1 week of age, but they can’t see or hear...",
+      "text": "Kittens eyes open at around 1 week of age, but they can’t see or hear clearly until they are 2-3 weeks old. This makes them completely dependent on mom for their tiny little lives."
+    },
+    {
+      "id": 2,
+      "type": "normal",
+      "title": "Kittens Sleep Around 18 Hours Per Day",
+      "description": "Kittens conserve their energy by sleeping an average of 18 hours a day...",
+      "text": "Kittens conserve their energy by sleeping an average of 18 hours a day! That gives them plenty of fuel for growing strong and quickly into the adult cats we know so well. Even more interesting is the fact that a certain growth hormone is only released during sleep, which is why they must rest to grow."
+    },
+    {
+      "id": 3,
+      "type": "normal",
+      "title": "Newborn Kittens Purr",
+      "description": "Even newborn kittens can purr and can often be heard doing so while they’re nursing...",
+      "text": "Even newborn kittens can purr and can often be heard doing so while they’re nursing or their mothers are cleaning them. While their squeaks and squeals are much more obvious, if you listen closely you’ll hear their content little motors running."
+    },
+    {
+      "id": 4,
+      "type": "double",
+      "title": "Kittens Have a Strong Sense of Smell",
+      "description": "Kittens can see color once they get their full vision, although they won’t see them...",
+      "text": "Kittens can see color once they get their full vision, although they won’t see them as well as humans do. Because of this, they rely very much on a strong sense of smell that develops when their eyesight and hearing does."
+    },
+    {
+      "id": 5,
+      "type": "normal",
+      "title": "Kittens Can Be Right or Left-Pawed",
+      "description": "Kittens can be right- or left-pawed, the same way people are right- or left-handed...",
+      "text": "Kittens can be right- or left-pawed, the same way people are right- or left-handed. If you watch closely, you’ll be able to determine whether your kitten uses his right or left paw when checking out new things."
+    },
+    {
+      "id": 6,
+      "type": "normal",
+      "title": "Kittens Can Fit Their Bodies Anywhere",
+      "description": "Cats and kittens can fit their bodies almost anywhere they can squeeze their heads into...",
+      "text": "Cats and kittens can fit their bodies almost anywhere they can squeeze their heads into, so be sure to exercise the utmost care and caution when kitten-proofing your house. Their adorable little heads can fit just about anywhere!"
+    },
+    {
+      "id": 7,
+      "type": "double",
+      "title": "A Kitten’s Whiskers length",
+      "description": "A cat’s and kitten’s whiskers are about as long as their bodies are wide...",
+      "text": "A cat’s and kitten’s whiskers are about as long as their bodies are wide. This is because whiskers are used to navigate through their surroundings and explore new places without your cat having to put her entire body there."
+    },
+    {
+      "id": 8,
+      "type": "normal",
+      "title": "All Kittens Are Born With Blue Eyes",
+      "description": "All kittens are born with blue eyes and will have their fully developed eye color at...",
+      "text": "All kittens are born with blue eyes and will have their fully developed eye color at around 8 weeks old. Even the darkest eyed cats once had little blue eyes when they first opened."
+    },
+    {
+      "id": 9,
+      "type": "normal",
+      "title": "Kittens Have 26 Teeth",
+      "description": "Adult cats have 30 teeth, but kittens initially only have 26 teeth...",
+      "text": "Adult cats have 30 teeth, but kittens initially only have 26 teeth. They loose these baby teeth when they’re about 6 months old and the full set of 30 will grow in to replace them."
+    }
+  ]
+}
