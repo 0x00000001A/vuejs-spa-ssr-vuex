@@ -1,5 +1,5 @@
 <template>
-<article class="kitten" @click="goToDetails(data.id)">
+<router-link tag="article" class="kitten" :to="{ name: 'kitten', params: { id: data.id } }">
   <div class="kitten__background">
     <div class="kitten__row">
       <h1 class="kitten__title">{{ data.title }}</h1>
@@ -8,18 +8,12 @@
       <p class="kitten__description">{{ data.description }}</p>
     </div>
   </div>
-</article>
+</router-link>
 </template>
 
 <script>
 export default {
-  props: ['data'],
-
-  methods: {
-    goToDetails(id) {
-      this.$router.push({ name: 'kitten', params: { id } });
-    },
-  },
+  props: ['data']
 };
 </script>
 

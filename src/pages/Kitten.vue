@@ -1,11 +1,22 @@
 <template>
-<article class="article">
-  <div class="article__image"></div>
-  <div class="article__content">
-    <h1 class="article__title">{{ kitten.title }}</h1>
-    <p class="article__text">{{ kitten.text }}</p>
+<div class="app-page-kitten">
+  <div v-if="loading">
+    <p>Loading...</p>
   </div>
-</article>
+  <div v-if="error">
+    <p>Something went wrong. Please, check your internet connection and try again</p>
+  </div>
+  <div v-if="!kittenFound">
+    <p>There is no such kitten</p>
+  </div>
+  <article v-if="kittenFound" class="article">
+    <div class="article__image"></div>
+    <div class="article__content">
+      <h1 class="article__title">{{ kitten.title }}</h1>
+      <p class="article__text">{{ kitten.text }}</p>
+    </div>
+  </article>
+</div>
 </template>
 
 <script>
@@ -13,13 +24,22 @@ export default {
   props: ['id'],
 
   computed: {
+    kittenFound() {
+      return !this.loading && !this.error && this.kitten
+    },
     kitten() {
       return this.$store.state.kittens.selected;
     },
+    loading() {
+      return this.$store.state.kittens.loading;
+    },
+    error() {
+      return this.$store.state.kittens.error;
+    }
   },
 
   asyncData({ store, route }) {
-    return store.dispatch('kittens/getKitten', Number(route.params.id));
+    return store.dispatch('kittens/getKitten', Number(route.params.id))
   },
 
   metaInfo: {
